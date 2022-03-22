@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #87CEFA;
+    font-family: 'Tourney', cursive;
+    color: red;
+    margin: 7rem;
+    
+
+}
+.nav-section{
+    font-size: 20pt;
+    font-weight: bolder;
+}
+.intro-content{
+    font-size: 30pt;
+    font-weight: bolder;
+}
+mouse-icon {
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+
+}
+#mouse-icon > img{
+    width: 100px;
+    height:100px;
+
+}
+.about-heading{
+    color: blueviolet;
+    font-weight: 300;
+    font-size: small;
+    padding-bottom: 1.5rem;
+}
+.about-content{
+    font-size: larger;
+}
+.btn{
+    margin-top:30px;
+    border-radius:15px;
+    text-decoration: none;
+    color:#030303;
+    display:inline-block;
+    height: 2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width:14vw;
+    justify-content: center;
+    align-items: center;
+}
+.about-main{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+.about-wrapper{
+    display:flex;
+    flex-direction: column-reverse;
+    padding-left: 3rem;
+}
+.about-image >img{
+    display: flex;
+    flex-direction: columne;
+    justify-content: space-between;
+    margin-right:4 rem;
+    align-items: center;
+    margin-bottom: 2rem
+}
+.work{
+    margin-top: 4rem;
+}
+.project{
+    margin-top: 4rem;
+}
+.project-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:4 rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.project-content > .project-title{
+    width: 78%;
+}
+.project-heading{
+    margin-bottom: 1rem;
+}
+.my github{
+    display: flex;
+}
